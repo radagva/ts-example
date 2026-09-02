@@ -11,7 +11,7 @@ const user = {
   id: 1,
   name: "Angel",
   email: "angel@gmail.com",
-};
+} as const;
 
 type User = typeof user;
 type Pet = {
