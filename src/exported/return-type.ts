@@ -1,7 +1,7 @@
 export type Pet = {
   id: number;
   name: string;
-  owner: string;
+  owner?: string;
 };
 
 export type StoredPet = Pet & {
